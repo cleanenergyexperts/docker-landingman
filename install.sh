@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+echo "================= Installing... ================="
+
 mkdir -p /tmp
 chmod 1777 /tmp
 
@@ -68,3 +70,4 @@ echo "================= Cleaning package lists ==================="
 apt-get clean
 apt-get autoclean
 apt-get autoremove
+exit 0;

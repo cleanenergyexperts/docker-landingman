@@ -25,7 +25,8 @@ RUN apt-get -y install \
 	libssl-dev \
 	g++ \
 	zlib1g-dev \
-	checkinstall
+	checkinstall \
+	zip
 
 # Install Image Libraries: optipng, pngcrush
 RUN apt-get -y install advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush pngquant
